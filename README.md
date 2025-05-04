@@ -31,5 +31,17 @@ This is a simple e-shop project developed using HTML, CSS (with Bootstrap), Java
 - The admin panel has a chart showing the most purchased products.
 - The admin panel has sorting products by ID, name, price, and categories
 
+## Gif
+
+(assets/pen&panic.gif)
+
 ## Screenshots
-(Include screenshots if possible)
+
+### Homepage
+
+![Homepage Screenshot](assets/homepage.png)
+
+![Homepage Screenshot](assets/homepage_2.png)
+
+### Admin
+

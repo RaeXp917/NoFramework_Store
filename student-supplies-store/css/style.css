@@ -1,0 +1,87 @@
+/* css/style.css */
+
+/* --- Base Card Styles --- */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Or adjust as needed */
+    object-fit: contain;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+.card {
+    border: 1px solid #dee2e6;
+}
+.card-title a:hover {
+    color: #0d6efd !important;
+}
+
+/* --- Add to Cart Button --- */
+.add-to-cart-btn {
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.add-to-cart-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.add-to-cart-btn:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+/* --- Flags --- */
+.lang-switcher img {
+    height: 16px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: transform 0.1s ease-in-out;
+}
+.lang-switcher a:hover img {
+     transform: scale(1.1);
+}
+.lang-switcher a.active img {
+    border: 1px solid #555;
+}
+
+/* --- Logo Styling in Navbar --- */
+.navbar-brand img.logo {
+    height: 60px; /* Kept user's value */
+    width: auto;
+    vertical-align: middle;
+}
+
+/* Ensure product cards are displayed correctly by default */
+.product-card {
+    display: block; /* Or flex, depending on Bootstrap version/grid */
+}
+
+/* --- Custom Hover Effects --- */
+
+/* 1. View Details Button: Black background on hover */
+/* Targets the specific outline-secondary button */
+.btn.btn-outline-secondary:hover,
+.btn.btn-outline-secondary:focus { /* Added focus for accessibility */
+    background-color: black;
+    color: white; /* Ensure text is visible */
+    border-color: black; /* Match background */
+}
+
+/* 2. Category List Item: Light grey background on hover */
+/* Targets the clickable list items in the category filter */
+.list-group-item-action.category-filter:hover,
+.list-group-item-action.category-filter:focus { /* Added focus for accessibility */
+    background-color: #e9ecef; /* Bootstrap's light grey ($gray-200) */
+    /* color: #212529; */ /* Optional: ensure text color remains dark if needed */
+}
+
+/* Optional: Ensure the active category item retains its distinct style */
+.list-group-item.category-filter.active {
+    /* These styles usually come from Bootstrap, but you can override if needed */
+    /* background-color: #0d6efd; */ /* Example: Bootstrap primary blue */
+    /* border-color: #0d6efd; */
+    /* color: white; */
+    /* Make sure active styles take precedence over hover */
+    z-index: 2; /* Helps ensure active state shows above hover */
+    position: relative; /* Needed for z-index */
+}

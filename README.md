@@ -74,7 +74,7 @@ C:\xampp\htdocs\
 ## Setup Instructions (Manual Setup)
 
 1. **Install XAMPP**  
-   Download XAMPP from the official website:  
+   Download XAMPP from the official website: (If you haven't already!) 
    → [XAMPP Download](https://www.apachefriends.org/index.html)  
    Install the package, then open the XAMPP Control Panel.
 

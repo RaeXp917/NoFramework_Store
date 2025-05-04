@@ -32,17 +32,9 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Demo
-
 ### GIF Preview
 
-(GIF goes here: student-supplies-store/assets/store.gif)
+(student-supplies-store/assets/store.gif)
 
 ---
 

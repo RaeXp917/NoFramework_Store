@@ -2,7 +2,7 @@
 
 ## Gif
 
-(eshop-project/student-supplies-store/assets/pen&panic.gif)
+![GIF Demo](assets/store.gif)
 
 ## Description
 This is a simple e-shop project developed using HTML, CSS (with Bootstrap), JavaScript, PHP, and MySQL. The project includes product listing, search functionality, pagination, sorting by price and name, and an admin panel with basic management features like viewing the most purchased products.
@@ -40,25 +40,25 @@ This is a simple e-shop project developed using HTML, CSS (with Bootstrap), Java
 
 ### Homepage
 
-![Homepage Screenshot](eshop-project/student-supplies-store/assets/homepage.png)
+![Homepage Screenshot](assets/homepage.png)
 
-![Homepage Screenshot](eshop-project/student-supplies-store/assets/homepage_2.png)
+![Homepage Screenshot](assets/homepage_2.png)
 
 ### Shoping cart
 
-![Shoping cart Screenshot](eshop-project/student-supplies-store/assets/shoping_cart.jpg)
+![Shoping cart Screenshot](assets/shoping_cart.jpg)
 
 
 ### Admin
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/admin_login.jpg)
+![Admin Screenshot](assets/admin_login.jpg)
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/main_page_admin.jpg)
+![Admin Screenshot](assets/main_page_admin.jpg)
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/manage_products.jpg)
+![Admin Screenshot](assets/manage_products.jpg)
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/add_new_product.jpg)
+![Admin Screenshot](assets/add_new_product.jpg)
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/view_order_panel.jpg)
+![Admin Screenshot](assets/view_order_panel.jpg)
 
-![Admin Screenshot](eshop-project/student-supplies-store/assets/view_panel.jpg)
+![Admin Screenshot](assets/view_panel.jpg)

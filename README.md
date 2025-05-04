@@ -64,7 +64,7 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 
 Clone the project into your machine with this command:
 
-git clone https://github.com/your-username/eshop-project.git
+git clone https://github.com/RaeXp917/eshop-project
 
 Then move the folder "student-supplies-store" into the XAMPP htdocs directory:
 

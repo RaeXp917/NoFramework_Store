@@ -34,29 +34,28 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 
 ### GIF Preview
 
-(student-supplies-store/assets/store.gif)
+![GIF Demo](student-supplies-store/assets/store.gif)
 
 ---
 
 ## Screenshots
 
 ### Homepage
-
-(student-supplies-store/assets/homepage.JPG)  
-(student-supplies-store/assets/homepage_2.JPG)
+![Homepage Screenshot](student-supplies-store/assets/homepage.JPG)
+![Homepage Screenshot](student-supplies-store/assets/homepage_2.JPG)
 
 ### Shopping Cart
 
-(student-supplies-store/assets/shoping_cart.JPG)
+![Shopping cart Screenshot](student-supplies-store/assets/shoping_cart.JPG)
 
 ### Admin Panel
 
-(student-supplies-store/assets/admin_login.JPG)  
-(student-supplies-store/assets/main_page_admin.JPG)  
-(student-supplies-store/assets/manage_products.JPG)  
-(student-supplies-store/assets/add_new_product.JPG)  
-(student-supplies-store/assets/view_order_panel.JPG)  
-(student-supplies-store/assets/view_panel.JPG)
+![Admin Screenshot](student-supplies-store/assets/admin_login.JPG)  
+![Admin Screenshot](student-supplies-store/assets/main_page_admin.JPG)  
+![Admin Screenshot](student-supplies-store/assets/manage_products.JPG)  
+![Admin Screenshot](student-supplies-store/assets/add_new_product.JPG)  
+![Admin Screenshot](student-supplies-store/assets/view_order_panel.JPG)  
+![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)
 
 ---
 

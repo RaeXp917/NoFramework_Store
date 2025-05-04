@@ -43,5 +43,10 @@ This is a simple e-shop project developed using HTML, CSS (with Bootstrap), Java
 
 ![Homepage Screenshot](assets/homepage_2.png)
 
+### Shoping cart
+
+![Shoping cart Screenshot](assets/shoping_cart.jpg)
+
+
 ### Admin
 

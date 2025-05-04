@@ -40,25 +40,25 @@ This is a simple e-shop project developed using HTML, CSS (with Bootstrap), Java
 
 ### Homepage
 
-![Homepage Screenshot](student-supplies-store/assets/homepage.png)
+![Homepage Screenshot](student-supplies-store/assets/homepage.JPG)
 
-![Homepage Screenshot](student-supplies-store/assets/homepage_2.png)
+![Homepage Screenshot](student-supplies-store/assets/homepage_2.JPG)
 
 ### Shoping cart
 
-![Shoping cart Screenshot](student-supplies-store/assets/shoping_cart.png)
+![Shoping cart Screenshot](student-supplies-store/assets/shoping_cart.JPG)
 
 
 ### Admin
 
-![Admin Screenshot](student-supplies-store/assets/admin_login.png)
+![Admin Screenshot](student-supplies-store/assets/admin_login.JPG)
 
-![Admin Screenshot](student-supplies-store/assets/main_page_admin.png)
+![Admin Screenshot](student-supplies-store/assets/main_page_admin.JPG)
 
-![Admin Screenshot](student-supplies-store/assets/manage_products.png)
+![Admin Screenshot](student-supplies-store/assets/manage_products.JPG)
 
-![Admin Screenshot](student-supplies-store/assets/add_new_product.png)
+![Admin Screenshot](student-supplies-store/assets/add_new_product.JPG)
 
-![Admin Screenshot](student-supplies-store/assets/view_order_panel.png)
+![Admin Screenshot](student-supplies-store/assets/view_order_panel.JPG)
 
-![Admin Screenshot](student-supplies-store/assets/view_panel.png)
+![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)

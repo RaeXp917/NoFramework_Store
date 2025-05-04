@@ -2,6 +2,8 @@
 
 This is a simple full-stack e-shop web application developed as a student project. It allows users to browse and search for products, view them in a paginated list, sort them by price or name, and add items to a shopping cart. Orders can be placed without a login system to keep things simple and focused on functionality.
 
+**Languages**: The app includes support for two languages – Greek and English.
+
 The project includes an admin panel for basic product management (add, edit, delete), viewing customer orders, and analyzing purchase trends with a chart showing the most purchased products.
 
 This e-shop was built from scratch without using any frameworks, showcasing a solid understanding of full-stack development and database integration.

@@ -92,18 +92,17 @@ This project uses Docker to ensure a consistent and easy setup process.
     ```bash
     git clone https://github.com/RaeXp917/eshop-project.git
     ```
-    *(Please ensure this is the correct repository URL)*
-
-2.  **Navigate to Project Directory:**
+    
+3.  **Navigate to Project Directory:**
     ```bash
     cd eshop-project
     ```
     *(Adjust if your repository root folder has a different name, e.g., `cd student-supplies-store`)*
 
-3.  **Verify `database.sql`:**
+4.  **Verify `database.sql`:**
     Confirm that the `database.sql` file exists in the project root directory. This file contains the necessary database schema and initial data required for the application to function.
 
-4.  **Launch with Docker Compose:**
+5.  **Launch with Docker Compose:**
     Run the following command in the project directory:
     ```bash
     docker-compose up --build -d

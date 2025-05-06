@@ -1,112 +1,136 @@
-## Table of Contents
+# Student Supplies Store (Pen & Panic)
 
-[Features](#features)
-[GIF Preview](#gif-preview)
-[Screenshots](#screenshots)
-[Setup Instructions](#setup-instructions)
-
-## Description
-
-This is a simple full-stack e-shop web application developed as a student project. It allows users to browse and search for products, view them in a paginated list, sort them by price or name, and add items to a shopping cart. Orders can be placed without a login system to keep things simple and focused on functionality.
+A simple full-stack e-shop web application developed as a student project. It allows users to browse and search for products, view them in a paginated list, sort them by price or name, and add items to a shopping cart. Orders can be placed without a login system to keep things simple and focused on functionality.
 
 **Languages**: The app includes support for two languages – Greek and English.
 
 The project includes an admin panel for basic product management (add, edit, delete), viewing customer orders, and analyzing purchase trends with a chart showing the most purchased products.
 
-This e-shop was built from scratch without using any frameworks, showcasing a solid understanding of full-stack development and database integration.
-
-**Note**: If you want to access the admin panel, there is a text file inside the `student-supplies-store` folder that contains the admin password. I added a login and password for the admin panel for demonstration purposes, and you can find the details in that text file.
+This e-shop was built from scratch without using any frameworks, showcasing a solid understanding of full-stack development and database integration using PHP, MariaDB, and Docker.
 
 ---
 
-## This App Includes
+## Table of Contents
 
-- Frontend: HTML, CSS (Bootstrap), JavaScript  
-- Backend: PHP (vanilla)  
-- Database: MySQL  
+*   [Features](#features)
+*   [Technology Stack](#technology-stack)
+*   [GIF Preview](#gif-preview)
+*   [Screenshots](#screenshots)
+*   [Getting Started (Docker Setup)](#getting-started-docker-setup)
+    *   [Prerequisites](#prerequisites)
+    *   [Installation & Running](#installation--running)
+    *   [Accessing the Application](#accessing-the-application)
+    *   [Accessing the Admin Panel](#accessing-the-admin-panel)
+    *   [Stopping the Application](#stopping-the-application)
 
 ---
 
 ## Features
 
-- Product listing with images and pricing
-- Search products by name
-- Pagination for product listings
-- Sorting by price or name
-- Shopping cart functionality
-- Place orders (no login required)
-- Admin panel:
-  - Product management (Add, Edit, Delete)
-  - View placed orders
-  - Sort products by ID, name, price, and category
-  - View the most purchased products with a chart
+*   Product listing with images and pricing
+*   Search products by name
+*   Pagination for product listings
+*   Sorting by price or name (on the customer-facing side)
+*   Shopping cart functionality
+*   Place orders (no login required)
+*   Multi-language support (English/Greek)
+*   **Admin Panel:**
+    *   Secure login (password in `admin_pass.txt`)
+    *   Product management (Add, Edit, Delete products)
+    *   View placed customer orders
+    *   **Sortable product list** (sort by ID, name, price, or category for easy management)
+    *   **Sales analysis graph** showing the most frequently purchased products
 
 ---
 
-### GIF Preview
+## Technology Stack
 
-![GIF Demo](student-supplies-store/assets/store.gif)
+*   **Frontend:** HTML, CSS (Bootstrap), JavaScript (including Chart.js for the admin graph)
+*   **Backend:** PHP 8.2 (Vanilla)
+*   **Database:** MariaDB 10.4
+*   **Web Server:** Apache
+*   **Containerization:** Docker & Docker Compose
+
+---
+
+## GIF Preview
+
+*(Make sure the GIF path is correct relative to the README.md file)*
+![GIF Demo](assets/store.gif)
 
 ---
 
 ## Screenshots
 
+*(Make sure the image paths are correct relative to the README.md file)*
+
 ### Homepage
-![Homepage Screenshot](student-supplies-store/assets/homepage.JPG)
-![Homepage Screenshot](student-supplies-store/assets/homepage_2.JPG)
+![Homepage Screenshot](assets/homepage.JPG)
+![Homepage Screenshot](assets/homepage_2.JPG)
 
 ### Shopping Cart
-
-![Shopping cart Screenshot](student-supplies-store/assets/shoping_cart.JPG)
+![Shopping cart Screenshot](assets/shoping_cart.JPG)
 
 ### Admin Panel
-
-![Admin Screenshot](student-supplies-store/assets/admin_login.JPG)  
-![Admin Screenshot](student-supplies-store/assets/main_page_admin.JPG)  
-![Admin Screenshot](student-supplies-store/assets/manage_products.JPG)  
-![Admin Screenshot](student-supplies-store/assets/add_new_product.JPG)  
-![Admin Screenshot](student-supplies-store/assets/view_order_panel.JPG)  
-![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)
-
----
-
-## If You're Using Git
-
-Clone the project into your machine with this command:
-
-git clone https://github.com/RaeXp917/eshop-project
-
-Then move the folder "student-supplies-store" into the XAMPP htdocs directory:
-
-C:\xampp\htdocs\
+![Admin Screenshot](assets/admin_login.JPG)
+![Admin Screenshot](assets/main_page_admin.JPG)
+![Admin Screenshot](assets/manage_products.JPG)
+![Admin Screenshot](assets/add_new_product.JPG)
+![Admin Screenshot](assets/view_order_panel.JPG)
+![Admin Screenshot](assets/view_panel.JPG)  *(This likely shows the graph)*
 
 ---
 
-## Setup Instructions (Manual Setup)
+## Getting Started (Docker Setup)
 
-1. **Install XAMPP**  
-   Download XAMPP from the official website: (If you haven't already!) 
-   → [XAMPP Download](https://www.apachefriends.org/index.html)  
-   Install the package, then open the XAMPP Control Panel.
+These instructions will get you a copy of the project up and running on your local machine using Docker.
 
-2. **Start Apache and MySQL**  
-   Open the XAMPP Control Panel and click **Start** for both **Apache** and **MySQL**. Ensure both services are running before proceeding.
+### Prerequisites
 
-3. **Place the Project Files in the Web Directory**  
-   Copy the entire "student-supplies-store" folder and paste it into your XAMPP installation directory at:  
-   `C:\xampp\htdocs\`  
-   After this step, the full file path should be:  
-   `C:\xampp\htdocs\student-supplies-store`
+*   [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
+*   [Git](https://git-scm.com/downloads) installed (for cloning the repository).
 
-4. **Import the MySQL Database**  
-   - Open your web browser and navigate to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).  
-   - In phpMyAdmin, click the **Import** tab located at the top.  
-   - Click **Choose File**, then select the `database.sql` file from your project folder.  
-   - Click **Go** to begin importing the database.
+### Installation & Running
 
-5. **Access the E-shop in Your Browser**  
-   - Once the database is imported, open your browser and go to:  
-   `http://localhost/student-supplies-store`  
-   - You should now be able to see the homepage of the e-shop!
+1.  **Clone the Repository:**
+    Open your terminal or command prompt and run:
+    ```bash
+    git clone https://github.com/RaeXp917/eshop-project.git
+    ```
+    *(Assuming this is your correct repository URL)*
 
----
+2.  **Navigate to Project Directory:**
+    ```bash
+    cd eshop-project
+    ```
+    *(Or `cd student-supplies-store` if the repo root doesn't match the folder name)*
+
+3.  **Ensure `database.sql` is Present:**
+    Verify that the `database.sql` file exists in the project root directory. This file contains the necessary database schema and initial data.
+
+4.  **Build and Start the Docker Containers:**
+    Run the following command in the project directory:
+    ```bash
+    docker-compose up --build -d
+    ```
+    *   This command builds the PHP/Apache image based on the `Dockerfile` and starts the web server and database containers defined in `docker-compose.yml`.
+    *   The first time you run this, Docker will download the necessary base images (PHP and MariaDB), which might take a few minutes.
+    *   The `-d` flag runs the containers in the background.
+
+### Accessing the Application
+
+*   Once the containers are running (the `docker-compose up` command finishes), open your web browser and navigate to:
+    `http://localhost:8080`
+*   You should see the homepage of the e-shop!
+
+### Accessing the Admin Panel
+
+*   The admin panel requires a password for access.
+*   You can find the admin password inside the `admin_pass.txt` file located in the project's root directory.
+
+### Stopping the Application
+
+To stop the running Docker containers, navigate back to the project directory in your terminal and run:
+
+```bash
+docker-compose down

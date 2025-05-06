@@ -21,8 +21,6 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
     *   [Accessing the Application](#accessing-the-application)
     *   [Accessing the Admin Panel](#accessing-the-admin-panel)
     *   [Stopping the Application](#stopping-the-application)
-*   [Troubleshooting](#troubleshooting)
-
 ---
 
 ## Features
@@ -130,19 +128,4 @@ To stop the running Docker containers when you're finished:
     This command gracefully stops and removes the containers. Your source code and the persistent database data (stored in a Docker volume) will remain untouched.
 
 ---
-
-## Troubleshooting
-
-*   **`Table 'student_store.products' doesn't exist` (or similar database errors):**
-    *   This usually means the database wasn't initialized correctly. Ensure the `database.sql` file in the project root is present and contains the correct `CREATE TABLE` statements.
-    *   Stop the containers: `docker-compose down`
-    *   Remove the potentially corrupted database volume (WARNING: This deletes all data currently in the Docker database!): `docker volume rm student-supplies-store_db_data` (Confirm the exact volume name with `docker volume ls` first).
-    *   Restart the application: `docker-compose up -d`
-*   **Connection Errors with Docker Commands (e.g., `Cannot connect to the Docker daemon`):**
-    *   Make sure Docker Desktop is running. Check the whale icon in your system tray – it should be stable.
-    *   Try restarting Docker Desktop (Right-click system tray icon -> Restart).
-*   **Port Conflicts (`Port is already allocated`):**
-    *   If `http://localhost:8080` is unavailable or you get errors about port `3307` being used, another application might be using these ports.
-    *   You can modify the *left-hand side* of the port mappings in the `docker-compose.yml` file. For example, change `ports: - "8080:80"` to `ports: - "8081:80"` and then access the site at `http://localhost:8081`. Similarly, you could change `"3307:3306"` if needed (though this only affects direct database access, not the application itself).
-
----
+Thanks for checking out my project! I'm super excited about this one 'cause it shows how much I've improved! If you’ve got any tips or feedback, feel free to drop a comment!

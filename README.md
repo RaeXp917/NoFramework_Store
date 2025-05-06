@@ -1,10 +1,11 @@
-## Description
-
 ## Table of Contents
-[Setup Instructions](#setup-instructions)
+
 [Features](#features)
-[Screenshots](#screenshots)
 [GIF Preview](#gif-preview)
+[Screenshots](#screenshots)
+[Setup Instructions](#setup-instructions)
+
+## Description
 
 This is a simple full-stack e-shop web application developed as a student project. It allows users to browse and search for products, view them in a paginated list, sort them by price or name, and add items to a shopping cart. Orders can be placed without a login system to keep things simple and focused on functionality.
 

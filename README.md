@@ -74,7 +74,7 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 ![Admin Screenshot](student-supplies-store/assets/manage_products.JPG)
 ![Admin Screenshot](student-supplies-store/assets/add_new_product.JPG)
 ![Admin Screenshot](student-supplies-store/assets/view_order_panel.JPG)
-![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)  *(This likely shows the graph)*
+![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)
 
 ---
 

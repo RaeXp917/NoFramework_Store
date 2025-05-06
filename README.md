@@ -47,9 +47,7 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 
 *   **Frontend:** HTML, CSS (Bootstrap), JavaScript (including Chart.js for the admin graph)
 *   **Backend:** PHP 8.2 (Vanilla)
-*   **Database:** MariaDB 10.4
-*   **Web Server:** Apache
-*   **Containerization:** Docker & Docker Compose
+*   **Database:** MySQL
 
 ---
 

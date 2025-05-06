@@ -54,26 +54,26 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 
 ## GIF Preview
 
-![GIF Demo](student-supplies-store/assetsstore.gif)
+![GIF Demo](student-supplies-store/assets/store.gif)
 
 ---
 
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](student-supplies-store/assetshomepage.JPG)
-![Homepage Screenshot](student-supplies-store/assetshomepage_2.JPG)
+![Homepage Screenshot](student-supplies-store/assets/homepage.JPG)
+![Homepage Screenshot](student-supplies-store/assets/homepage_2.JPG)
 
 ### Shopping Cart
-![Shopping cart Screenshot](student-supplies-store/assetsshoping_cart.JPG)
+![Shopping cart Screenshot](student-supplies-store/assets/shoping_cart.JPG)
 
 ### Admin Panel
-![Admin Screenshot](student-supplies-store/assetsadmin_login.JPG)
-![Admin Screenshot](student-supplies-store/assetsmain_page_admin.JPG)
-![Admin Screenshot](student-supplies-store/assetsmanage_products.JPG)
-![Admin Screenshot](student-supplies-store/assetsadd_new_product.JPG)
-![Admin Screenshot](student-supplies-store/assetsview_order_panel.JPG)
-![Admin Screenshot](student-supplies-store/assetsview_panel.JPG)
+![Admin Screenshot](student-supplies-store/assets/admin_login.JPG)
+![Admin Screenshot](student-supplies-store/assets/main_page_admin.JPG)
+![Admin Screenshot](student-supplies-store/assets/manage_products.JPG)
+![Admin Screenshot](student-supplies-store/assets/add_new_product.JPG)
+![Admin Screenshot](student-supplies-store/assets/view_order_panel.JPG)
+![Admin Screenshot](student-supplies-store/assets/view_panel.JPG)
 
 ---
 

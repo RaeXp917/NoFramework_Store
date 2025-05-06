@@ -17,7 +17,6 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 *   [GIF Preview](#gif-preview)
 *   [Screenshots](#screenshots)
 *   [Getting Started (Docker Setup)](#getting-started-docker-setup)
-    *   [Prerequisites](#prerequisites)
     *   [Installation & Running](#installation--running)
     *   [Accessing the Application](#accessing-the-application)
     *   [Accessing the Admin Panel](#accessing-the-admin-panel)
@@ -80,10 +79,6 @@ This e-shop was built from scratch without using any frameworks, showcasing a so
 ---
 
 ## Getting Started (Docker Setup)
-
-These instructions will get you a copy of the project up and running on your local machine using Docker.
-
-### Prerequisites
 
 *   [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
 *   [Git](https://git-scm.com/downloads) installed (for cloning the repository).

@@ -107,10 +107,7 @@ This project uses Docker to ensure a consistent and easy setup process.
     ```bash
     docker-compose up --build -d
     ```
-    *   This command orchestrates the build and startup process. It builds the PHP/Apache image using the `Dockerfile` and starts the web server and database containers.
-    *   The first time you run this, Docker might need to download the base images, which could take a few minutes.
-    *   The `-d` flag runs the containers in the background, freeing up your terminal.
-
+    
 ### Accessing the Application
 
 *   Once the containers are successfully running (the `docker-compose up` command completes), open your web browser and navigate to:

@@ -3,7 +3,7 @@
 [Features](#features)
 [GIF Preview](#gif-preview)
 [Screenshots](#screenshots)
-[Setup Instructions](#Setup-Instructions-(Manual-Setup))
+[Setup Instructions](#setup-instructions)
 
 ## Description
 

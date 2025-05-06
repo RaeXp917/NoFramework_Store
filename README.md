@@ -114,7 +114,7 @@ This project uses Docker to ensure a consistent and easy setup process.
 
 ### Accessing the Admin Panel
 
-*   The admin panel is protected by a password.
+*   To access the admin panel, visit http://localhost:8080/admin
 *   You can find the necessary password inside the `admin_pass.txt` file located in the project's root directory.
 
 ### Stopping the Application
@@ -125,7 +125,5 @@ To stop the running Docker containers when you're finished:
     ```bash
     docker-compose down
     ```
-    This command gracefully stops and removes the containers. Your source code and the persistent database data (stored in a Docker volume) will remain untouched.
-
 ---
 Thanks for checking out my project! I'm super excited about this one 'cause it shows how much I've improved! If you’ve got any tips or feedback, feel free to drop a comment!

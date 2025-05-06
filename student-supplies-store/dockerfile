@@ -1,0 +1,29 @@
+# Use PHP 8.2 with Apache, matching your XAMPP version
+FROM php:8.2-apache
+
+WORKDIR /var/www/html
+
+# Install mysqli extension (as used in your config.php) and pdo_mysql (good practice)
+RUN docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli pdo_mysql
+
+# --- Optional common extensions ---
+# Uncomment if your project needs them:
+# RUN apt-get update && apt-get install -y \
+#     libfreetype6-dev \
+#     libjpeg62-turbo-dev \
+#     libpng-dev \
+#     libzip-dev \
+#     libicu-dev \
+#     && rm -rf /var/lib/apt/lists/* \
+#     && docker-php-ext-configure gd --with-freetype --with-jpeg \
+#     && docker-php-ext-install -j$(nproc) gd \
+#     && docker-php-ext-install -j$(nproc) zip \
+#     && docker-php-ext-install -j$(nproc) intl \
+#     && docker-php-ext-install -j$(nproc) opcache
+
+# Enable Apache's mod_rewrite (for potential .htaccess use)
+# Still need confirmation: Do you use .htaccess files? (Yes/No)
+RUN a2enmod rewrite
+
+# Expose Apache port
+EXPOSE 80

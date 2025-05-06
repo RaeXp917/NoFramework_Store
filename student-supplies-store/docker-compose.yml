@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: student_store_web
+    ports:
+      - "8080:80" # Access your app at http://localhost:8080
+    volumes:
+      - ./:/var/www/html # Mount your project code
+    depends_on:
+      - db
+
+  db:
+    # Use MariaDB 10.4, matching your XAMPP version
+    image: mariadb:10.4
+    container_name: student_store_db
+    restart: always
+    environment:
+      # --- Allow root user with no password ---
+      MYSQL_ALLOW_EMPTY_PASSWORD: '1' # Allows root login without a password
+      # MYSQL_ROOT_PASSWORD: changeme_root_password # Not needed when allowing empty password
+      MYSQL_DATABASE: student_store # Database to create
+      MYSQL_USER: root              
+      MYSQL_PASSWORD: ''            
+    ports:
+      # Map host port 3307 to container port 3306
+      - "3307:3306"
+    volumes:
+      # Persist data
+      - db_data:/var/lib/mysql
+      # Initialize DB schema from your file on first run
+      - ./database.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  db_data:

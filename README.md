@@ -109,7 +109,7 @@ This project uses Docker to ensure a consistent and easy setup process.
 ### Accessing the Application
 
 *   Once the containers are successfully running (the `docker-compose up` command completes), open your web browser and navigate to:
-    `http://localhost:8080`
+    http://localhost:8080
 *   You should now see the e-shop homepage!
 
 ### Accessing the Admin Panel

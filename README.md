@@ -93,9 +93,7 @@ This project uses Docker to ensure a consistent and easy setup process.
     
 3.  **Navigate to Project Directory:**
     ```bash
-    cd eshop-project
-    *AND*
-    cd student-supplies-store
+    cd eshop-project/student-supplies-store
     ```
     *(Adjust if your repository root folder has a different name, e.g., `cd student-supplies-store`)*
 
